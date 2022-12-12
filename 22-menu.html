@@ -1,0 +1,407 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Menuler</title>
+  </head>
+
+  
+  <body>
+    <div class="container">
+        <h1>Menüler - Navs</h1>
+        <hr>
+
+        <h4>Basit Yatay Menü</h4>
+        <ul class="nav">
+            <li class="nav-item"><a href="#" class="nav-link">Homepage</a></li>
+            <li class="nav-item"><a href="" class="nav-link">News</a></li>
+            <li class="nav-item"><a href="" class="nav-link active">Settings (active)</a> </li>
+            <li class="nav-item"><a href="" class="nav-link disabled">Contact (disabled)</a></li>
+        </ul> <!-- nav class -->
+
+            <br>
+            <hr>
+            <br>
+
+        <h4>Basit Yatay Menü - Ortalama</h4>
+        <ul class="nav justify-content-center">
+            <li class="nav-item"><a href="#" class="nav-link">Homepage</a></li>
+            <li class="nav-item"><a href="" class="nav-link">News</a></li>
+            <li class="nav-item"><a href="" class="nav-link active">Settings (active)</a> </li>
+            <li class="nav-item"><a href="" class="nav-link disabled">Contact (disabled)</a></li>
+        </ul> <!-- nav class -->
+
+            <br>
+            <hr>
+            <br>
+
+        <h4>Basit Yatay Menü - Sağa Yaslama</h4>
+        <ul class="nav justify-content-end">
+            <li class="nav-item"><a href="#" class="nav-link">Homepage</a></li>
+            <li class="nav-item"><a href="" class="nav-link">News</a></li>
+            <li class="nav-item"><a href="" class="nav-link active">Settings (active)</a> </li>
+            <li class="nav-item"><a href="" class="nav-link disabled">Contact (disabled)</a></li>
+        </ul> <!-- nav class -->
+
+            <br>
+            <hr>
+            <br>
+
+        <h4>Basit Dikey Menü</h4>
+        <ul class="nav flex-column">
+            <li class="nav-item"><a href="#" class="nav-link">Homepage</a></li>
+            <li class="nav-item"><a href="" class="nav-link">News</a></li>
+            <li class="nav-item"><a href="" class="nav-link active">Settings (active)</a> </li>
+            <li class="nav-item"><a href="" class="nav-link disabled">Contact (disabled)</a></li>
+        </ul> <!-- nav class -->
+
+            <br>
+            <hr>
+            <br>
+
+        <h4>Tab Menü</h4>
+        <ul class="nav nav-tabs">
+            <li class="nav-item"><a href="#" class="nav-link">Homepage</a></li>
+            <li class="nav-item"><a href="" class="nav-link">News</a></li>
+            <li class="nav-item"><a href="" class="nav-link active">Settings (active)</a> </li>
+            <li class="nav-item"><a href="" class="nav-link disabled">Contact (disabled)</a></li>
+        </ul> <!-- nav class -->
+
+            <br>
+            <hr>
+            <br>
+
+        <h4>Hap Pills Menü</h4>
+        <ul class="nav nav-pills">
+            <li class="nav-item"><a href="#" class="nav-link">Homepage</a></li>
+            <li class="nav-item"><a href="" class="nav-link">News</a></li>
+            <li class="nav-item"><a href="" class="nav-link active">Settings (active)</a> </li>
+            <li class="nav-item"><a href="" class="nav-link disabled">Contact (disabled)</a></li>
+        </ul> <!-- nav class -->
+
+            <br>
+            <hr>
+            <br>
+        
+        <h4>Hap Pills Menü Sayfaya Yayma</h4>
+        <ul class="nav nav-pills nav-fill">
+            <li class="nav-item"><a href="#" class="nav-link">Homepage</a></li>
+            <li class="nav-item"><a href="" class="nav-link">News</a></li>
+            <li class="nav-item"><a href="" class="nav-link active">Settings (active)</a> </li>
+            <li class="nav-item"><a href="" class="nav-link disabled">Contact (disabled)</a></li>
+        </ul> <!-- nav class -->
+        
+            <br>
+            <hr>
+            <br>
+
+        <h4>Eşit Dağılma</h4>
+        <ul class="nav nav-pills nav-justified">
+            <li class="nav-item"><a href="#" class="nav-link">Homepage</a></li>
+            <li class="nav-item"><a href="" class="nav-link">News</a></li>
+            <li class="nav-item"><a href="" class="nav-link active">Settings (active)</a> </li>
+            <li class="nav-item"><a href="" class="nav-link disabled">Contact (disabled)</a></li>
+        </ul> <!-- nav class -->
+
+            <br>
+            <hr>
+            <br>
+
+        <h4>Esnek Yapı</h4>
+        <ul class="nav nav-pills nav-justified flex-column flex-sm-row">
+            <li class="nav-item"><a href="#" class="nav-link">Homepage</a></li>
+            <li class="nav-item"><a href="" class="nav-link">News</a></li>
+            <li class="nav-item"><a href="" class="nav-link active">Settings (active)</a> </li>
+            <li class="nav-item"><a href="" class="nav-link disabled">Contact (disabled)</a></li>
+        </ul> <!-- nav class -->
+
+            <br>
+            <hr>
+        <h1>Menüler - (Navs) - JS Özellikleri</h1>
+            <hr>
+
+        <h4>Dikey Tab Menü</h4>
+        <div class="row">
+            <ul class="nav flex-column nav-pills">
+                <li class="nav-item">
+                    <a href="#homepage" data-toggle="tab" class="nav-link">Homepage</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#news" data-toggle="tab" class="nav-link">News</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#settings" data-toggle="tab" class="nav-link">Settings (active)</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#contact" data-toggle="tab" class="nav-link">Contact (disabled)</a>
+                </li>
+            </ul>
+
+            <div class="tab-content col-md-9">
+                <div class="tab-pane fade active" id="homepage">--Homepage Sekmesi--Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </div>
+                
+                <div class="tab-pane fade active" id="news">--News Sekmesi--Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </div>
+
+                <div class="tab-pane fade active" id="settings">--Settings (active)--Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </div>
+
+                <div class="tab-pane fade active" id="contact">--Contact (disabled)--Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </div>
+
+            </div> <!-- tab content colmd9 -->
+        </div> <!-- row -->
+
+            <br>
+            <hr>
+        <h1>Menubar - Navbar</h1>
+            <hr>
+        
+        <nav class="navbar navbar-expand navbar-light bg-light">
+            <a href="#" class="navbar-brand">UDEMY</a>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Homepage</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">News</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Settings</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </nav>
+
+        <br>
+        <hr>
+        <br>
+
+        <h4>Navbar Logo</h4>
+        <nav class="navbar navbar-expand navbar-light bg-light">
+            <a href="#" class="navbar-brand"><img width="100px" src="https://tharsitis.gr/wp-content/uploads/2014/07/udemy-logo-academyofyoublog1.jpg" alt="Resim Açıklaması"></a>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Homepage</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">News</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Settings</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </nav>
+
+
+        <br>
+        <hr>
+        <br>
+        <h4>Navbar Collapse Logo</h4>
+        <nav class="navbar navbar-expand navbar-light bg-light">
+            <a href="#" class="navbar-brand"><img width="100px" src="https://tharsitis.gr/wp-content/uploads/2014/07/udemy-logo-academyofyoublog1.jpg" alt="Resim Açıklaması"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ac"><span class="navbar-toggler-icon"></span></button>
+
+            <div class="collapse navbar-collapse" id="ac">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Homepage</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">News</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Settings</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+                <form class="form-inline">
+                    <input class="form-control mr-2 " type="text" placeholder="Arama Yap!" name="">
+                    <button class="btn btn-outline-success my-2 ">Ara</button>
+                </form>
+            </div> <!-- collapse -->
+        </nav>
+
+        
+        
+        <br>
+        <hr>
+        <br>
+        <h4>Navbar Collapse Menü Renk Stilleri</h4>
+        <p> nav classa fixed-top verirsek en üste sabitler</p>
+        <p> nav classa fixed-bottom verirsek en alta sabitler</p>
+        <p> nav classa sticky-top verirsek scroll nereye hareket ederse bar oraya gelir.</p>
+        <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-danger">
+            <a href="#" class="navbar-brand"><img width="100px" src="https://tharsitis.gr/wp-content/uploads/2014/07/udemy-logo-academyofyoublog1.jpg" alt="Resim Açıklaması"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ac"><span class="navbar-toggler-icon"></span></button>
+
+            <div class="collapse navbar-collapse" id="ac">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Homepage</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">News</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Settings</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+                <form class="form-inline">
+                    <input class="form-control mr-2 " type="text" placeholder="Arama Yap!" name="">
+                    <button class="btn btn-outline-warning my-2 ">Ara</button>
+                </form>
+            </div> <!-- collapse -->
+        </nav>
+        
+        <br>
+        <hr>
+        <br>
+        <h4>Collapse</h4>
+
+        <a data-toggle="collapse" data-target="#kursac"></a>
+        <button type="button" data-toggle="collapse" data-target="#kursac" class="btn btn-success">Kurs Detayını Aç</button>
+        <div class="collapse mt-4" id="kursac">
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        
+            <img width="100px" src="https://tharsitis.gr/wp-content/uploads/2014/07/udemy-logo-academyofyoublog1.jpg">
+        </div>
+        
+        <br>
+        <hr>
+        <h4>Akordion Collapse</h4>
+
+        <div class="accordion">
+            <div class="card">
+                <div class="card-header">
+                    <h5>
+                        <a data-toggle="collapse" href="#ac1">Kursları Nasıl Satın Alabilirim ?</a>
+                    </h5>
+                </div> <!-- card header -->
+                <div id="ac1" class="collapse">
+                    <div class="card-body">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas harum maiores molestiae, ad quaerat quo repudiandae, accusantium dolorum, odio amet omnis officia? Reiciendis, ratione quae atque, dolor sint repudiandae totam quos tenetur ea consequuntur, in magnam neque! Necessitatibus in earum modi, iusto saepe quidem atque voluptas minima, ab iste consequuntur.</p>      
+                    </div> <!-- card body -->
+                </div> <!-- DİV collapse -->
+            </div> <!-- card -->
+
+            <div class="card">
+                <div class="card-header">
+                    <h5>
+                        <a data-toggle="collapse" href="#ac2">Kursları Nasıl Satın Alabilirim ?</a>
+                    </h5>
+                </div> <!-- card header -->
+                <div id="ac2" class="collapse">
+                    <div class="card-body">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas harum maiores molestiae, ad quaerat quo repudiandae, accusantium dolorum, odio amet omnis officia? Reiciendis, ratione quae atque, dolor sint repudiandae totam quos tenetur ea consequuntur, in magnam neque! Necessitatibus in earum modi, iusto saepe quidem atque voluptas minima, ab iste consequuntur.</p>      
+                    </div> <!-- card body -->
+                </div> <!-- DİV collapse -->
+            </div> <!-- card -->
+
+            <div class="card">
+                <div class="card-header">
+                    <h5>
+                        <a data-toggle="collapse" href="#ac3">Kursları Nasıl Satın Alabilirim ?</a>
+                    </h5>
+                </div> <!-- card header -->
+                <div id="ac3" class="collapse">
+                    <div class="card-body">
+                        <img width="100px" src="https://tharsitis.gr/wp-content/uploads/2014/07/udemy-logo-academyofyoublog1.jpg">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas harum maiores molestiae, ad quaerat quo repudiandae, accusantium dolorum, odio amet omnis officia? Reiciendis, ratione quae atque, dolor sint repudiandae totam quos tenetur ea consequuntur, in magnam neque! Necessitatibus in earum modi, iusto saepe quidem atque voluptas minima, ab iste consequuntur.</p>      
+                    </div> <!-- card body -->
+                </div> <!-- DİV collapse -->
+            </div> <!-- card -->
+
+
+            <div class="card">
+                <div class="card-header">
+                    <h5>
+                        <a data-toggle="collapse" href="#ac4">Kursları Nasıl Satın Alabilirim ?</a>
+                    </h5>
+                </div> <!-- card header -->
+                <div id="ac4" class="collapse">
+                    <div class="card-body">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas harum maiores molestiae, ad quaerat quo repudiandae, accusantium dolorum, odio amet omnis officia? Reiciendis, ratione quae atque, dolor sint repudiandae totam quos tenetur ea consequuntur, in magnam neque! Necessitatibus in earum modi, iusto saepe quidem atque voluptas minima, ab iste consequuntur.</p>      
+                        <img width="100px" src="https://tharsitis.gr/wp-content/uploads/2014/07/udemy-logo-academyofyoublog1.jpg">
+                    </div> <!-- card body -->
+                </div> <!-- DİV collapse -->
+            </div> <!-- card -->
+
+        </div> <!-- accordion -->
+
+
+    </div> <!-- container -->
+
+
+
+
+
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+  </body>
+</html>
